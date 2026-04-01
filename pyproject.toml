@@ -4,4 +4,15 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-multipart",
+    "pypdf",
+    "langchain",
+    "langchain-huggingface",
+    "langchain-community",
+    "langchain-chroma",
+    "groq",
+    "python-dotenv"
+]
